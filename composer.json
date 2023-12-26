@@ -1,0 +1,28 @@
+{
+  "name": "aon21/instagram-feed",
+  "description": "Gets instagram feed",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Mantas Tautvaiša",
+      "email": "mantas.tautvaisa@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Aon\\InstagramFeed\\": "src"
+    }
+  },
+  "require": {
+    "php": ">=8.0"
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "3.*",
+    "nunomaduro/phpinsights": "^2.11"
+  },
+  "config": {
+    "allow-plugins": {
+      "dealerdirect/phpcodesniffer-composer-installer": true
+    }
+  }
+}
